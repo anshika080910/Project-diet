@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dietdynamo</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- swiper cdn link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google font link  -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+    <!-- firebase auth link -->
+     <script type="module" src="script.js"></script>  
+</head>
+<body>
+    
+    <header class="header">
+
+        <a href="#" class="logo">DIET DYNAMO</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#diet">Diet</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#reviews">Reviews</a>
+        </nav>
+
+        <div class="fas fa-bars" id="menu"> </div>
+
+    </header>
+
+
+    <!-- HOME SECTION STARTS -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>DIET DYNAMO</h3>
+            <h2><i>Who says eating healthy is boring ?</i></h2>
+            <!-- <a href="#" class="btn"> Read More </a><br> -->
+            <br>
+            <a href="signin.html" class="btn"> SignUp/SignIn </a>
+        </div>
+
+    </section>
+
+    <!-- HOME SECTION ENDS -->
+
+    
+    <!-- ABOUT SECTION START -->
+    <section class="about" id="about">
+        <h1 class="heading">about us</h1>
+
+        <div class="row">
+            <div class="content">
+                <h3>We will give you the guidelines according to your health.</h3>
+                <p> <b>For us it’s not ‘just food’, it’s a matter of good lifestyle choices and eventually a better quality of life.</b><br>A Diet Consultant Manager is responsible for ensuring that all consultants are providing high-quality and evidence-based nutrition advice to clients. They also develop and implement marketing and outreach strategies to increase the visibility of the diet consultation service.Diet Consultant Managers play a vital role in promoting health and wellness through nutrition. They are responsible for providing expert advice and counseling to individuals and play a key role in giving nutrition suggestions that meet the needs of their clients.</p>
+                <a href="#" class="btn">read more</a>
+            </div>    
+
+            <div class="image">
+                <img src="https://media.istockphoto.com/id/1308801026/vector/traditional-greek-salad-with-slices-of-feta-cheese-tomatoes-olives-flying-in-the-air-to-a.jpg?s=612x612&w=0&k=20&c=5C-Um2PktFYeLCzK3lLdXziZIRihUWcAfVBeF4vapME=" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ABOUT SECTION ENDS -->
+
+
+    <!-- Services section starts -->
+
+    <section class="services" id="services">
+        <h1 class="heading">our services</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+            
+                <div class="icon">
+                    <img src="https://e1.pxfuel.com/desktop-wallpaper/975/413/desktop-wallpaper-diet-chart-time-table-foods-fruits-diet.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>arranging a nutrition plan</h3>
+                    <div class="line"></div>
+                    <p>daily nutrition basic needs </p>
+                    <ul>
+                        <li><i class="fas fa-check"></i>Dietary fiber = 28 gms</li>
+                        <li><i class="fas fa-check"></i>Calories intake = 2500</li>
+                        <li><i class="fas fa-check"></i>Protein = 1gm/kg</li>
+                        <li><i class="fas fa-check"></i>water intake = 2.5-3 litres</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="box">
+            
+                <div class="icon">
+                    <img src="https://media.istockphoto.com/id/1350434851/vector/bathroom-scale-with-measuring-tape.jpg?s=612x612&w=0&k=20&c=4d7sMyB5iIylqHX1v15oWVlK1ZoZWB3ENW0rQKStGyg=" alt="">
+                </div>
+                <div class="content">
+                    <h3>Health checkup</h3>
+                    <div class="line"></div>
+                    <p>here you can calculate the BMI (body mass index).</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i>Take your height in meters and square the number.</li>
+                        <li><i class="fas fa-check"></i>Divide your weight in kilograms by meters squared.</li>
+                        <li><i class="fas fa-check"></i>Use an extended equation if your height is in centimeters</li>
+                        <li><i class="fas fa-check"></i>Body mass index = weight/(height)^2. </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="box">
+            
+                <div class="icon">
+                    <img src="https://media.istockphoto.com/id/922539614/vector/fitness-and-sport.jpg?s=612x612&w=0&k=20&c=Nw0d0h7WDHWOnLgOeZsWMtZimyrN71xldEQlrPLeLhY=" alt="">
+                </div>
+                <div class="content">
+                    <h3>Exercises </h3>
+                    <div class="line"></div>
+                    <p>Some essential exercises that will help you to stay healthy. 
+                    </p>
+                    <ul>
+                        <li><i class="fas fa-check"></i>Cardio - running , rowing ,  jump rope , boxing , burpee.</li>
+                        <li><i class="fas fa-check"></i>Compound exercises - deadlift , bench press , squat , overhead press. </li>
+                        <li><i class="fas fa-check"></i>Hypertrophy - rowing , barbell curl , bent-over row.</li>
+                        <li><i class="fas fa-check"></i>Strength training - plank , leg press , romanian deadlift , pull-ups.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services section ends -->
+
+    <!-- diet section starts  -->
+
+    <section class="diet" id="diet">
+        <h1 class="heading">diet plan</h1>
+        
+        <ul class="controls">
+            <li class="buttons active" data-filter="all">
+                <img src="https://cdn-icons-png.flaticon.com/512/649/649371.png" alt="">
+                <h3>all </h3>
+            </li>
+            <li class="buttons" data-filter="breakfast">
+                <img src="https://static.thenounproject.com/png/695400-200.png" alt="">
+                <h3>hair & skin</h3>
+            </li>
+            <li class="buttons" data-filter="lunch">
+                <img src="https://cdn-icons-png.flaticon.com/512/5420/5420149.png" alt="">
+                <h3>weight gain</h3>
+            </li>
+            <li class="buttons" data-filter="dinner">
+                <img src="https://cdn-icons-png.flaticon.com/512/106/106563.png" alt="">
+                <h3>weight loss</h3>
+            </li>
+        </ul>
+        <!-- 1 -->
+        <div class="image-container">
+            <div class="box lunch">
+                <div class="image">
+                    <img src="https://www.marham.pk/healthblog/wp-content/uploads/2021/09/1-9-1024x536.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Dried Fruits</a>
+                    <p>Consuming dried fruits can be beneficial for weight gain. This super-food contains various antioxidants, proteins, calories and micronutrients.</p>
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-clock"></i> 16 november,2023 </a>
+                        <a href="#"> <i class="fas fa-user"></i> by admin</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="box breakfast">
+                <div class="image">
+                    <img src="https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-08/sweet-potato-nutritional-benefits-2x1-bn0220823-4f071f.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Sweet potatoes</a>
+                    <p>Tomaschko notes that sweet potatoes are rich in the carotenoid beta-carotene, which she says is a precursor for vitamin A.
+                    </p>
+                    <div class="icon">
+                        <a href="#" class="fas fa-clock">16 november,2023</a>
+                        <a href="#" class="fas fa-user">by admin</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="box breakfast">
+                <div class="image">
+                    <img src="https://thishealthytable.com/wp-content/uploads/2021/05/pesto-eggs-10-of-12-683x1024.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Eggs</a>
+                    <p>Eggs are one of the few foods that should be classified as “superfoods.” Our hair is made of a protein called keratin, a diet insufficient in protein make hair brittle</p>
+                    <div class="icon">
+                        <a href="#" class="fas fa-clock">16 november,2023</a>
+                        <a href="#" class="fas fa-user">by admin</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="box breakfast">
+                <div class="image">
+                    <img src="https://insanelygoodrecipes.com/wp-content/uploads/2022/05/Avocado-Boats-Stuffed-with-Eggs-and-Bacon.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Avocados</a>
+                    <p>avocados are rich in healthy fats and nutrients that promote skin and nail health, including:vitamin C,vitamin A, vitamin E
+                        
+                        </p>
+                    <div class="icon">
+                        <a href="#" class="fas fa-clock">16 november,2023</a>
+                        <a href="#" class="fas fa-user">by admin</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="box lunch">
+                <div class="image">
+                    <img src="https://hellotempayy.com/cdn/shop/articles/plant-based-protein-rich-food.png?v=1648795402" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Protein</a>
+                    <p>Homemade protein smoothies can be a highly nutritious and effective way to gain weight.</p>
+                    <div class="icon">
+                        <a href="#" class="fas fa-clock">16 november,2023</a>
+                        <a href="#" class="fas fa-user">by admin</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 6 -->
+            <div class="box dinner">
+                <div class="image">
+                    <img src="https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-3foodgroups_fruits_detailfeature.jpg?sfvrsn=64942d53_4" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">fruits</a>
+                    <p>Most fruits have properties that make them great for helping you reach or maintain a healthy weight.</p>
+                    <div class="icon">
+                        <a href="#" class="fas fa-clock">16 november,2023</a>
+                        <a href="#" class="fas fa-user">by admin</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 7 -->
+            <div class="box dinner">
+                <div class="image">
+                    <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFsYW5jZWQlMjBtZWFsfGVufDB8fDB8fHww" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">Leafy Greens</a>
+                    <p>Leafy greens such as spinach and collard greens pack fiber and nutrients that can help keep you satisfied and hydrated</p>
+                    <div class="icon">
+                        <a href="#" class="fas fa-clock">16 november,2023</a>
+                        <a href="#" class="fas fa-user">by admin</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="box dinner">
+                <div class="image">
+                    <img src="https://www.realsimple.com/thmb/q1RiJijz6bIhCuQfUDXou1PY4-0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/high-protein-dinner-recipes-roasted-root-veggie-quinoa-bowls-recipe-0123DIN-fbc39b4cdf504f608f76ec0ee85e8885.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">beans</a>
+                    <p>Beans and other legumes, such as lentils, black beans, and kidney beans, can be beneficial for weight loss.</p>
+                    <div class="icon">
+                        <a href="#" class="fas fa-clock">16 november,2023</a>
+                        <a href="#" class="fas fa-user">by admin</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 9 -->
+            <div class="box dinner">
+                <div class="image">
+                    <img src="https://www.indianveggiedelight.com/wp-content/uploads/2020/03/lemon-coriander-soup-featured-480x270.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="link">soups</a>
+                    <p>Soups may take you longer to eat than other foods. This may helpTrusted Source you eat more mindfully.</p>
+                    <div class="icon">
+                        <a href="#" class="fas fa-clock">16 november,2023</a>
+                        <a href="#" class="fas fa-user">by admin</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- diet section ends  -->
+
+
+    <!-- pricing section starts  -->
+
+    <section class="pricing" id="pricing">
+
+        <h1 class="heading">subscription plan</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3 class="title">basic</h3>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount">30</span>
+                    <span class="duration"> /year</span>
+                </div>
+                <ul>
+                    <li> <i class="fas fa-check"></i> nutrition plan</li>
+                    <li> <i class="fas fa-check"></i> training plan</li>
+                    <li> <i class="fas fa-check"></i> body measurement</li>
+                </ul>
+                <p>30 days consultation</p>
+                <p>3 personal meetings</p>
+                <p>$20 access to additonal material</p>
+                <a href="billing.html" class="btn">subscribe</a>
+            </div>
+
+            <div class="box active">
+                <h3 class="title">standard</h3>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount">70</span>
+                    <span class="duration"> /year</span>
+                </div>
+                <ul>
+                    <li> <i class="fas fa-check"></i> nutrition plan</li>
+                    <li> <i class="fas fa-check"></i> training plan</li>
+                    <li> <i class="fas fa-check"></i> body measurement</li>
+                </ul>
+                <p>60 days consultation</p>
+                <p>10 personal meetings</p>
+                <p>free access to additonal material</p>
+                <a href="billing.html" class="btn">subscribe</a>
+            </div>
+
+            <div class="box">
+                <h3 class="title">premium</h3>
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount">90</span>
+                    <span class="duration"> /year</span>
+                </div>
+                <ul>
+                    <li> <i class="fas fa-check"></i> nutrition plan</li>
+                    <li> <i class="fas fa-check"></i> training plan</li>
+                    <li> <i class="fas fa-check"></i> body measurement</li>
+                </ul>
+                <p>90 days consultation</p>
+                <p>15 personal meetings</p>
+                <p>free access to additonal material</p>
+                <a href="billing.html" class="btn">subscribe</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- priccing section ends  -->
+
+
+    <!-- review section starts  -->
+
+    <section class="reviews" id="reviews">
+
+        <h1 class="heading">client's reviews</h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <!-- 1 -->
+                <div class="swiper-slide slide">
+                    <p>Customer service is also good as I had a few help along the way to answer some of my questions.
+                     My overall experience with products and services was average. A few virtual quaalities still needs to be optimized, but its all right most of the times. Overall, its a pretty ok site for ordinarry use.</p>
+                    <div class="user">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/002/010/315/small/asian-handsome-man-with-a-mustache-smiling-on-white-background-free-photo.jpg" alt="">
+                        <div class="info">
+                            <h3>Rohit</h3>
+                            <span>client</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="swiper-slide slide">
+                    <p>I followed the diet many years ago & achieved my weight loss goal. After gaining weight during the pandemic, I was feeling very defeated & frustrated because nothing was working. I saw an ad that reminded me about my past success & thought it was worth trying again.</p>
+                    <div class="user">
+                        <img src="https://img.freepik.com/free-photo/portrait-handsome-smiling-stylish-young-man-model-dressed-blue-shirt-clothes-fashion-man-posing-crossed-arms_158538-4979.jpg" alt="">
+                        <div class="info">
+                            <h3>Saksham</h3>
+                            <span>client</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="swiper-slide slide">
+                    <p>I decided not to weigh myself, but my clothes are fitting better & overall confidence has improved. I decided not to weigh myself, but my clothes are fitting better & overall confidence has improved.</p>
+                    <div class="user">
+                        <img src="https://img.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg?size=626&ext=jpg&ga=GA1.1.44546679.1698969600&semt=ais" alt="">
+                        <div class="info">
+                            <h3>Muskan</h3>
+                            <span>client</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="swiper-slide slide">
+                    <p>Prices are fair where you can usually find something in your price range. Whether you want to lose weight, eat better, or both, Diet Direct can serve those purposes.</p>
+                    <div class="user">
+                        <img src="https://img.freepik.com/free-photo/closeup-happy-pretty-indian-business-woman_1262-2258.jpg" alt="">
+                        <div class="info">
+                            <h3>Anshika</h3>
+                            <span>client</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 5 -->
+                <div class="swiper-slide slide">
+                    <p>I've tried several different foods from diet direct mainly the diet. I absolutely love them. A few virtual qualities still needs to be optimized, but its all right most of the times</p>
+                    <div class="user">
+                        <img src="https://lovehairstyles.com/wp-content/uploads/2022/05/tp-best-mens-hairstyles.jpg" alt="">
+                        <div class="info">
+                            <h3>Akshit</h3>
+                            <span>client</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 6 -->
+                <div class="swiper-slide slide">
+                    <p>If you're looking for healthy yet choosable, as in desirable, foods, then Diet Direct is for you! With a wide variety of options regarding foods and drinks, they have fewer calories, low fat, low sugar, high protein and/or fiber, and vitamins and minerals. </p>
+                    <div class="user">
+                        <img src="https://indianwomennetwork.com/wp-content/uploads/2022/02/slider-women-final-1.png" alt="">
+                        <div class="info">
+                            <h3>yallice</h3>
+                            <span>client</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- review section ends  -->
+
+
+    <!-- newsletter section starts  -->
+
+    <section class="newsletter">
+        <div class="content">
+            <h1 class="heading">subscribe now</h1>
+            <p>Join our maling list. Subscribe to our newsletter to stay up to date with our discounts, new products, recipes & nutrition tips.
+
+            </p>
+            <form action="">
+                <input type="email" placeholder="enter your mail" class="email">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <!-- newsletter section ends  -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"> <i class="fas fa-arrow-right"></i>home</a>
+                <a href="#about"> <i class="fas fa-arrow-right"></i>about</a>
+                <a href="#services"> <i class="fas fa-arrow-right"></i>services</a>
+                <a href="#diet"> <i class="fas fa-arrow-right"></i>diet</a>
+                <a href="#blog"> <i class="fas fa-arrow-right"></i>blog</a>
+                <a href="#reviews"> <i class="fas fa-arrow-right"></i>reviews</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i>my account</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>my order</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>my wishlist</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>ask question</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>terms of use</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>privacy policy</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i>+123-456-7890</a>
+                <a href="#"> <i class="fas fa-phone"></i>+123-765-2568</a>
+                <a href="#"> <i class="fas fa-envelope"></i>johndeo10@gmail.com</a>
+                <a href="#"> <i class="fas fa-map"></i>mumbai, India</a>
+            </div>
+                
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"> <i class="fab fa-facebook"></i>facebook</a>
+                <a href="#"> <i class="fab fa-twitter"></i>twitter</a>
+                <a href="#"> <i class="fab fa-instagram"></i>instagram</a>
+                <a href="#"> <i class="fab fa-linkedin"></i>linkedin</a>
+                <a href="#"> <i class="fab fa-github"></i>github</a>
+            </div>
+        
+        </div>
+
+    </section>
+
+
+    <!-- footer section ends  -->
+
+    <!-- jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- swiper cdn link  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom js link  -->
+    <script src="script.js"></script>
+
+</body>
+</html>
